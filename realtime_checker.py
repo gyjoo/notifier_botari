@@ -12,7 +12,7 @@ def receiving():
     if received_length == id.original_length:
         print("아직 지갑 안 열렸네요")
     else:
-        bot.sendMessage(chat_id = id.chat_id, text="!!!!!!!!!!!!!!!!!!!!!!!!!!!!  지갑 열렸습니다  !!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        bot.sendMessage(chat_id = id.chat_id, text="@@@@@@@@@@@@@@@@@@@@  지갑 열렸습니다  @@@@@@@@@@@@@@@@@@@@")
 
     time.sleep(1)
 
